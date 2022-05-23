@@ -1,0 +1,43 @@
+/* Dark theme */
+:root {
+	--text: #D9D9D9;
+	--dark: #111;
+	--medium: #222;
+	--light: #333;
+}
+
+/* General */
+:root {
+	--border-radius: 0.5em;
+	--transition-transform: transform 200ms cubic-bezier(0.2, 1, 0.8, 1);
+	--transition-opacity: opacity 150ms linear;
+}
+
+*, *::before, *::after {
+	-webkit-tap-highlight-color: transparent;
+	box-sizing: border-box;
+}
+
+*:focus {
+	outline: none;
+}
+
+body {
+	font-family: sans-serif;
+	background-color: var(--dark);
+	color: var(--text);
+	padding: 0;
+}
+
+h1, h2, h3, p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+
+	&:hover {
+		filter: brightness(130%);
+	}
+}

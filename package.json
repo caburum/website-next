@@ -1,0 +1,33 @@
+{
+	"name": "website-next",
+	"version": "1.1.0",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/caburum/website-next.git"
+	},
+	"author": "Calum Dingwall (https://github.com/caburum)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/caburum/website-next/issues"
+	},
+	"homepage": "https://github.com/caburum/website-next#readme",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@notionhq/client": "^0.4.12",
+		"next": "12.0.8",
+		"react": "17.0.2",
+		"react-dom": "17.0.2",
+		"react-infinite-scroll-component": "^6.1.0",
+		"sass": "^1.49.0",
+		"slugify": "^1.6.5"
+	},
+	"devDependencies": {
+		"eslint": "8.7.0",
+		"eslint-config-next": "12.0.8"
+	}
+}
