@@ -18,16 +18,16 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
-		"@notionhq/client": "^0.4.12",
-		"next": "12.0.8",
-		"react": "17.0.2",
-		"react-dom": "17.0.2",
+		"@notionhq/client": "^1.0.4",
+		"next": "^12.0.8",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
 		"react-infinite-scroll-component": "^6.1.0",
-		"sass": "^1.49.0",
+		"sass": "^1.52.1",
 		"slugify": "^1.6.5"
 	},
 	"devDependencies": {
-		"eslint": "8.7.0",
-		"eslint-config-next": "12.0.8"
+		"eslint": "^8.7.0",
+		"eslint-config-next": "^12.0.8"
 	}
 }
